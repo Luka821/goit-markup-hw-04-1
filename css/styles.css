@@ -1,11 +1,4 @@
-/* колір фону #F5F5F5 */
-/* другорядний колір фону #F5F4FA */
-/* герой і футер колір фону #2F303A */
-/* колір тексту #212121 */
-/* колір абзаців #757575 */
-/* акцент #2196F3 */
-/* білий #FFFFFF */
-/* контакти у футері color: rgba(255, 255, 255, 0.6); */
+
 :root {
   --black-color: #000000;
   --text-primary-color: #212121;
@@ -22,7 +15,7 @@ body {
   background-color: var(--primary-white-color);
   color: var(--text-primary-color);
 
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -61,7 +54,7 @@ img {
   display: block;
   max-width: 100%;
 }
-/* Налаштування контейнера */
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -73,7 +66,6 @@ img {
   padding-bottom: 94px;
 }
 
-/* Header */
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -122,7 +114,7 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-/* header contacts */
+
 .contacts-list {
   display: flex;
   margin-left: auto;
@@ -171,8 +163,6 @@ img {
   margin: -1px;
 }
 
-/* Стилі index.html */
-/* Hero */
 .hero {
   padding: 200px 0;
   margin-left: auto;
@@ -227,7 +217,6 @@ img {
   background-color: var(--primary-btn-accent-color--);
 }
 
-/* Перелік рішень */
 .section.features {
   padding-bottom: 0;
 }
@@ -270,7 +259,7 @@ img {
   line-height: 1.71;
 }
 
-/* Чим ми займаємося */
+
 .section-list .img-list:not(:last-child) {
   margin-right: 30px;
 }
@@ -387,7 +376,10 @@ img {
   fill: currentColor;
 }
 
-/* Стилі portfolio.html */
+
+
+
+/* portfolio.html */
 .btn-list,
 .project-list {
   list-style-type: none;
@@ -466,12 +458,10 @@ img {
 .project-desc {
   color: var(--text-p-color);
   font-size: 16px;
-  /* font-weight: 400; */
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
 
-/* Footer */
 .footer {
   display: flex;
   padding-top: 60px;
