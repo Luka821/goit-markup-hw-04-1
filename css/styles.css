@@ -88,7 +88,7 @@ img {
 .part {
   color: var(--accent-color);
 }
-/* nav */
+
 .nav-list .link + .link {
   margin-left: 50px;
 }
